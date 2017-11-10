@@ -7,5 +7,6 @@ RUN apt-get install -y python
 RUN apt-get install -y python-pip
 RUN pip install --upgrade pip
 RUN pip install scrapy
+RUN apt-get install -y ipython
 
-ENTRYPOINT ["/usr/local/bin/scrapy"]
+# ENTRYPOINT ["/usr/local/bin/scrapy"]
